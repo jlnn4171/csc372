@@ -1,0 +1,48 @@
+.general{
+    background-color:rgb(201, 169, 166); 
+    text-align: center;
+}
+
+#titles{
+    font-family: "Montserrat";
+    color:rgb(47, 23, 47);
+    padding: 10px;
+}
+
+img{
+    padding: 5px;
+    float: left;
+}
+
+p{
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.navBar{
+    overflow: auto;
+    padding: 5px;
+    background-color: rgb(213, 138, 148);
+    font-family: "Montserrat";
+    
+  }
+
+    .navBar a{
+        float: left;
+        color:white;
+        font-family: "Montserrat";
+        font-size: large;
+    
+    }
+    
+    .navBar a:hover{
+        color:rgb(47, 23, 47);
+        background-color: rgb(235, 102, 40);
+        padding: 15px;
+    }
+    
+    .navBar a:active{
+        color:rgb(47, 23, 47);
+        background-color: rgb(228, 185, 214);
+        padding: 15px;
+    }
