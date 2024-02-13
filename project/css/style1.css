@@ -1,4 +1,4 @@
-.general{
+.bgColor{
     background-color:rgb(201, 169, 166); 
     text-align: center;
 }
@@ -7,11 +7,6 @@
     font-family: "Montserrat";
     color:rgb(47, 23, 47);
     padding: 10px;
-}
-
-img{
-    padding: 5px;
-    float: left;
 }
 
 p{
@@ -24,6 +19,10 @@ p{
     padding: 5px;
     background-color: rgb(213, 138, 148);
     font-family: "Montserrat";
+
+    img{
+        float: left;
+    }
     
   }
 
