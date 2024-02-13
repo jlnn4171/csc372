@@ -3,7 +3,7 @@
     text-align: center;
 }
 
-#titles{
+.titles{
     font-family: "Montserrat";
     color:rgb(47, 23, 47);
     padding: 10px;
@@ -19,29 +19,28 @@ p{
     padding: 5px;
     background-color: rgb(213, 138, 148);
     font-family: "Montserrat";
-
-    img{
-        float: left;
-    }
     
   }
 
-    .navBar a{
-        float: left;
-        color:white;
-        font-family: "Montserrat";
-        font-size: large;
+.navBar img{
+    float: left;
+}
+.navBar a{
+    float: left;
+    color:white;
+    font-family: "Montserrat";
+    font-size: large;
     
-    }
+}
     
-    .navBar a:hover{
-        color:rgb(47, 23, 47);
-        background-color: rgb(235, 102, 40);
-        padding: 15px;
-    }
+.navBar a:hover{
+    color:rgb(47, 23, 47);
+    background-color: rgb(235, 102, 40);
+    padding: 15px;
+}
     
-    .navBar a:active{
-        color:rgb(47, 23, 47);
-        background-color: rgb(228, 185, 214);
-        padding: 15px;
-    }
+.navBar a:active{
+    color:rgb(47, 23, 47);
+    background-color: rgb(228, 185, 214);
+    padding: 15px;
+}
