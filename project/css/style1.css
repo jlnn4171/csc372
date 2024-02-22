@@ -6,7 +6,15 @@
 .titles{
     font-family: "Montserrat";
     color:rgb(47, 23, 47);
+    padding: 25px;
+    font-size: 43px;
+}
+
+h3{
+    font-family: "Montserrat";
+    color:rgb(47, 23, 47);
     padding: 10px;
+    font-size: 23px;
 }
 
 p{
@@ -44,3 +52,15 @@ p{
     background-color: rgb(228, 185, 214);
     padding: 15px;
 }
+
+th {
+    text-align: center;
+}  
+td {
+    text-align: left;
+} 
+.choice {
+    width: 40px;
+    margin-left: 30%;
+}
+  
