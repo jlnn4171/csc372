@@ -6,25 +6,26 @@ function update() {
     var totalCost2 = 0;
 
     //selects elements based on class and stores in list
-    var choice = document.querySelectorAll('.choice');
-    var costs = document.querySelectorAll('.cost');
+    var choice = $('.choice');
+    var costs = $('.cost');
   
-    for (var i = 0; i < choice.length; i++) {
+    choice.each(function (i) {
     
-      var curChoice = choice[i].value; 
-      curChoice.toLowerCase();
-      var cost = parseInt(costs[i].textContent) || 0; 
+      var curChoice = $(this).val().toLowerCase();
+      var cost = parseInt(costs.eq(i).text()) || 0; 
       
       if (curChoice === 'yes'){
         totalCost += cost;
-        choice[i].style.borderColor = 'bright pink';
-        continue; 
+        $(this).css('border-color', 'bright pink'); 
       }
       
-    }
+    });
 
     totalCost2 = totalCost * 1.07;
   
-    document.getElementById('totalCost').textContent = totalCost.toFixed(2);
-    document.getElementById('totalCost2').textContent = totalCost2.toFixed(2);
+    
+    //document.getElementById('totalCost').textContent = totalCost.toFixed(2);
+    $("#totalCost").text(totalCost.toFixed(2));
+    //document.getElementById('totalCost2').textContent = totalCost2.toFixed(2);
+    $("#totalCost2").text(totalCost2.toFixed(2));
   }
