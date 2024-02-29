@@ -1,0 +1,18 @@
+h3{
+    text-align: center;
+    font-size: medium;
+    font-family: "Montserrat";
+    color:rgb(23, 47, 39); 
+}
+
+img{
+    border: 5px;
+    color: rgb(88, 67, 108); 
+    border-style: double; 
+    padding: 5px;
+  }
+
+.general{
+    background-color:rgb(167, 145, 187); 
+    justify-content: center;
+}

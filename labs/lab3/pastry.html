@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastry</title>
+    <link href="css/uriweb.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <table>
+          <tr>
+            <th>Pastry</th>
+            <th>Cost</th>
+            <th>Quantity</th>
+          </tr>
+          <tr>
+            <td>Cookie</td>
+            <td>$<span class="cost">2.00</span></td>
+            <td><input type="number" class="quant"></td>
+          </tr>
+          <tr>
+            <td>Muffin</td>
+            <td>$<span class="cost">3.50</span></td>
+            <td><input type="number" class="quant"></td>
+          </tr>
+          <tr>
+            <td>Danish</td>
+            <td>$<span class="cost">4.25</span></td>
+            <td><input type="number" class="quant"></td>
+          </tr>
+          <tr>
+            <td>Cake</td>
+            <td>$<span class="cost">5.50</span></td>
+            <td><input type="number" class="quant"></td>
+          </tr>
+          <tr>
+            <td>Sampler</td>
+            <td>$<span class="cost">12.50</span></td>
+            <td><input type="number" class="quant"></td>
+          </tr>
+          <tr>
+            <td><input type="button" value="Update Total" onclick="update()"></td>
+            <td><input type="reset" value="Clear form"></td>
+          </tr>
+          <tr>
+            <td colspan="3">Total for <span id="quantTotal">0</span> pastries is $<span id="totalCost">0</span></td>
+          </tr>
+        </table>
+      </form>
+      
+      <script src="js/pastry.js"></script>
+</body>
+</html>
+

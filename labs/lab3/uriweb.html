@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <link href="css/uriweb.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="divmain">
+      <h1> The University of Rhode Island </h1>
+
+      <h5 id="para1homepage"> At the University of Rhode Island, our faculty and programs challenge you to expand your vision of what’s possible. </h5>
+
+      <div>
+        <a> <img id="uri_logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/University_of_Rhode_Island_seal.svg/300px-University_of_Rhode_Island_seal.svg.png"></a>
+      </div>
+      <button onClick="changePic()">
+        Click me to change the URI logo above!
+      </button>
+    </div>
+
+
+    <div id="divcampus">
+    
+      <h2> This is a section on Campus Life </h2>
+      
+      <div class="center">
+        <button onClick="changeTags()">
+          Click me to change the color of all paragraphs!
+        </button>
+      </div>
+      
+      <p class="paragraph center" id="tinyParagraph"> At the University of Rhode Island, we’ll encourage you, inspire you, and, yes, <i>challenge</i> you. We’re here to move you forward, to help you reach further.
+      <br><br>
+        <button onClick="removeParagraph()">
+          Click me to make this paragraph disappear!
+        </button>
+      </p>
+
+      <h3> This is a section on URI Community </h3>
+
+      <p class="paragraph"> Welcome to the URI community. We’re glad you’re here, and we want to help you feel at home. This is the place where you will forge lifelong friendships, learn more about yourself and the world, and build the foundation for the rest of your life. </p>
+
+      <p id="para4homepage"> 
+      If that sounds like a lot, it is. We offer you many options and opportunities while you are here, and invite you to get involved. Meet people from places you’ve never been. Explore. Go to the beach. Have fun. <span class="highlight">Most of all, make URI your own.</span></p>
+    </div>
+
+    <script src="js/uriweb.js"></script>
+  </body>
+
+</html>

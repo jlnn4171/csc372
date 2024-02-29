@@ -1,0 +1,126 @@
+/* change the background color of the whole website */
+/* change the font of the whole website */
+/* change the font color of the whole website */
+/* change the font size of the whole website */
+
+body{
+    background-color: lightblue;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: medium;
+  }
+  
+  /* change all h1 and h2 tags to be: 
+    - centered
+    - underlined
+    - a color of your choosing
+  */
+  h1, h2{
+    text-align: center;
+    text-decoration: underline;
+    color: pink; 
+  }
+  
+  /* change all h3 tags to be: 
+    - underlined
+    - a different color from the h1 and h2 tags 
+  */
+  h3{
+    text-decoration: underline;
+    color: purple; 
+  }
+  
+  /* create a para1homepage id to have: 
+    - a text color of your choosing 
+  */
+  #para1homepage{
+    color: green;
+  }
+  
+  /* create a center class that centers text */
+  .center{
+    text-align: center;
+  }
+  
+  /* create a paragraph class of p tags that has:
+    - a font size of your choosing
+    - a background color of your choosing
+    - 20px of padding all a round
+    - a solid black border of 2px
+    - rounded edges of 10px
+  */
+  p{
+    font-size: 20px;
+    background-color: orange;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+  
+  }
+  
+  /* create a para4homepage id that has:
+    - a font size of your choosing
+    - a background color of your choosing
+    - 20px of padding all a round
+    - 20px of margin at the bottom and on the right
+    - 50px of margin at the top
+    - 200px of margin on the left
+    - a thick ridge border with color of your choosing
+  */
+  #para4homepage{
+    font-size: 15px;
+    background-color: lightgreen;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+    border: 5px ridge darkgreen;
+  }
+  
+  
+  /* create a divmain id that has: 
+    - a font color of your choosing
+    - centered
+  */
+  #divmain{
+    color: yellow;
+    text-align: center;
+  }
+  
+  
+  /* create a divcampus class that has:
+    - a font color of your choosing
+  */
+  .divcampus{
+    color: darkorange;
+  }
+  
+  
+  /* create a divcontent class that has:
+    - a font color of your choosing
+  */
+  .divcontent{
+    color: red;
+  }
+  
+  /* create a highlight class that has:
+    - a font color of your choosing
+  */
+  .highlight{
+    color: yellow;
+  }
+  
+  /* change all links to blue but a different color when visited and a different color when hovered over */
+  a:link{
+    color: blue;
+  }
+  a:visited{
+    color: green;
+  }
+  a:hover{
+     color: red;
+  }
+  
+  
+  
