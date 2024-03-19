@@ -23,6 +23,9 @@ p{
 }
 
 .navBar{
+    display: flex;
+    justify-content: space-between; /* Align items along the main axis with space between */
+    align-items: center;
     overflow: auto;
     padding: 5px;
     background-color: rgb(213, 138, 148);
@@ -32,9 +35,10 @@ p{
 
 .navBar img{
     float: left;
+    margin-right: 10px; /* Adjust the margin-right to create space */
 }
 .navBar a{
-    float: left;
+
     color:white;
     font-family: "Montserrat";
     font-size: large;
