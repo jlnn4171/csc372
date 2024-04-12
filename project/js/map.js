@@ -1,4 +1,7 @@
 /*
+
+//code from the slides
+
 function init() {
 
     // Set up the map options
