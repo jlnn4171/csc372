@@ -1,0 +1,59 @@
+.bgColor{
+    background-color:rgb(201, 169, 166); 
+    text-align: center;
+}
+
+.titles{
+    font-family: "Montserrat";
+    color:rgb(47, 23, 47);
+    padding: 25px;
+    font-size: 43px;
+}
+
+h3{
+    font-family: "Montserrat";
+    color:rgb(47, 23, 47);
+    padding: 10px;
+    font-size: 23px;
+}
+
+p{
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between; /* Align items along the main axis with space between */
+    align-items: center;
+    overflow: auto;
+    padding: 5px;
+    background-color: rgb(213, 138, 148);
+    font-family: "Montserrat";
+    
+  }
+
+.navBar img{
+    float: left;
+    margin-right: 10px; /* Adjust the margin-right to create space */
+}
+.navBar a{
+
+    color:white;
+    font-family: "Montserrat";
+    font-size: large;
+    
+}
+    
+.navBar a:hover{
+    color:rgb(47, 23, 47);
+    background-color: rgb(235, 102, 40);
+    padding: 15px;
+}
+    
+.navBar a:active{
+    color:rgb(47, 23, 47);
+    background-color: rgb(228, 185, 214);
+    padding: 15px;
+}
+
