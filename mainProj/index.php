@@ -1,3 +1,9 @@
+<?php
+
+	// Include the session script
+	include 'includes/session.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +23,7 @@
         <a href="contact.html"> Contact </a> 
         <a href="about.html"> About </a>
         <a href="book.html"> Booking </a>
+        <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 
     <h1 class="titles"> Welcome to Perfect Nails </h1>
