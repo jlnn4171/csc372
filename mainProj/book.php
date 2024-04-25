@@ -2,6 +2,22 @@
 
 	// Include the session script
 	include 'includes/session.php';
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        // Get the username the user sent
+        $name = $_POST['name'];
+    
+        // Get the password the user sent
+        $phoneNum = $_POST['phone'];
+        $service = $_POST['service'];
+        $apptDate = $_POST['appointment_date'];
+
+        $sql = "INSERT INTO appointment(name, phoneNum, apptDate, service) 
+            VALUES (:name, :phoneNum, :apptDate, :service);"   
+        
+        $statement = pdo($pdo, $sql, ['name' => $name, 'phoneNum' => $phoneNum, 'apptDate' => $apptDate, 'service' => $service]);
+
+    }
 ?>
 
 <!DOCTYPE html>
