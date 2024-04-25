@@ -6,12 +6,11 @@
   if ($logged_in) { 
 
     // Redirect to profile page   
-    header('Location: index.php'); 
+    header('Location: book.php'); 
 
     // Stop further code running
     exit;
   }    
-
 
   // Check if the form was submitted.
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -30,7 +29,7 @@
       login($username);  
 
       // Redirect to profile page                             
-      header('Location: index.php');
+      header('Location: book.php');
 
       // Stop further code running 
       exit;   

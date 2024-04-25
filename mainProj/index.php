@@ -35,10 +35,12 @@
     <img src="images/handsOnTowel.jpg" alt="Two hands placed on a grey towel with another set of hands filing their nails." width ="200" height ="110">
 
    
-    <br>
+    <footer> 
 
-    Questions? Contact Juliana Nguyen, the website creator. 
-    <a href="mailto:Juliana_nguyen@uri.edu"> Contact Website Creator </a>
+        <p>Questions? Contact our Web Developer: Juliana Nguyen.</p>
+        <a href="mailto:Juliana_nguyen@uri.edu"> Email Juliana </a>
+
+    </footer>
 
     <script src="js/picAnimation.js"></script>
 </body>

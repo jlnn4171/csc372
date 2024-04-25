@@ -29,6 +29,8 @@
     
     <h1 class = "titles"> Services Offered at Perfect Nails </h1>
 
+    <p> In the text boxes below, type 'yes' if you would like to see the estimation of the costs altogether. Otherwise, leave it blank. </p>
+
     <form>
         <div class = "fadeIn">
             <h3> Eyelash Extensions </h3>
@@ -38,7 +40,7 @@
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
-                    <th>Type Yes Or Leave Blank</th>
+                    <th>Response</th>
                 </tr>
                 <tr>
                     <td> Regular </td>
@@ -71,7 +73,7 @@
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
-                    <th>Type Yes Or Leave Blank</th>
+                    <th>Response</th>
                 </tr>
                 <tr>
                     <td> Mini </td>
@@ -99,7 +101,7 @@
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
-                    <th>Type Yes Or Leave Blank</th>
+                    <th>Response</th>
                 </tr>
                 <tr>
                     <td> Acrylic Full Set </td>
@@ -192,7 +194,7 @@
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
-                    <th>Type Yes Or Leave Blank</th>
+                    <th>Response</th>
                 </tr>
                 <tr>
                     <td> Eyebrow </td>
@@ -224,7 +226,7 @@
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
-                    <th>Type Yes Or Leave Blank</th>
+                    <th>Response</th>
                 </tr>
                 <tr>
                     <td> Eyebrow </td>
