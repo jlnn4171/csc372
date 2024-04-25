@@ -4,6 +4,7 @@
 
   // If already logged in
   if ($logged_in) { 
+
     // Redirect to profile page   
     header('Location: index.php'); 
 
@@ -58,7 +59,7 @@
       <a href="services.php"> Services </a> 
       <a href="contact.php"> Contact </a> 
       <a href="about.php"> About </a>
-      <a href="book.php"> Booking </a>
+      <?= $logged_in ? '<a href="book.php"> Booking </a>' : '<a href="login.php">Booking</a>'; ?>
       <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 

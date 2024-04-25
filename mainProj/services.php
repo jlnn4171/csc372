@@ -34,7 +34,7 @@
             <h3> Eyelash Extensions </h3>
             <img src="images/lashStockPic.jpg" alt = "eyelash extensions being applied by tweezers to a closed eye" width ="220" height ="172">
 
-            <table>
+            <table class = "center">
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
@@ -67,7 +67,7 @@
             <h3> Facials </h3>
             <img src="images/facialStockPic.jpg" alt = "paintbrush applying facial on woman's face" width ="220" height ="172">
                     
-            <table>
+            <table class = "center">
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
@@ -95,7 +95,7 @@
             <h3> Nail Treatments </h3>
             <img src="images/frenchTipsSetStockPic.jpg" alt = "nails and toes done in french design" width ="220" height ="172">
 
-            <table>
+            <table class = "center">
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
@@ -188,7 +188,7 @@
             <h3> Permanent Makeup </h3>
             <img src="images/microbladingStockPic.jpg" alt = "tip of tattoo gun over a woman's eyebrow" width ="220" height ="172">
 
-            <table>
+            <table class = "center">
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>
@@ -220,7 +220,7 @@
         <div class = "fadeIn">
             <h3> Waxing </h3>
 
-            <table>
+            <table class = "center">
                 <tr>
                     <th>Service</th>
                     <th>Cost</th>

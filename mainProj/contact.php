@@ -51,7 +51,7 @@
     
     <h3> Hours of Operation </h3>
             
-        <table>
+        <table class = "center">
             <tr>
                 <th> Day </th>
                 <th> Hours </th>
