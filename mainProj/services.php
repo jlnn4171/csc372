@@ -30,274 +30,288 @@
     <h1 class = "titles"> Services Offered at Perfect Nails </h1>
 
     <form>
+        <div class = "fadeIn">
+            <h3> Eyelash Extensions </h3>
+            <img src="images/lashStockPic.jpg" alt = "eyelash extensions being applied by tweezers to a closed eye" width ="220" height ="172">
 
-        <h3> Eyelash Extensions </h3>
-        <img src="images/lashStockPic.jpg" alt = "eyelash extensions being applied by tweezers to a closed eye" width ="220" height ="172">
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Cost</th>
+                    <th>Type Yes Or Leave Blank</th>
+                </tr>
+                <tr>
+                    <td> Regular </td>
+                    <td> $<span class="cost">45</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Regular With Added Volume </td>
+                    <td> $<span class="cost">60</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Individual Lashes </td>
+                    <td> $<span class="cost">130</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Individual Lashes With Added Volume </td>
+                    <td> $<span class="cost">160</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+            </table>
+        </div>
 
-        <table>
-            <tr>
-                <th>Service</th>
-                <th>Cost</th>
-                <th>Type Yes Or Leave Blank</th>
-            </tr>
-            <tr>
-                <td> Regular </td>
-                <td> $<span class="cost">45</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Regular With Added Volume </td>
-                <td> $<span class="cost">60</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Individual Lashes </td>
-                <td> $<span class="cost">130</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Individual Lashes With Added Volume </td>
-                <td> $<span class="cost">160</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-        </table>
+        <div class = "fadeIn">
+            <h3> Facials </h3>
+            <img src="images/facialStockPic.jpg" alt = "paintbrush applying facial on woman's face" width ="220" height ="172">
+                    
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Cost</th>
+                    <th>Type Yes Or Leave Blank</th>
+                </tr>
+                <tr>
+                    <td> Mini </td>
+                    <td> $<span class="cost">40</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Full </td>
+                    <td> $<span class="cost">60</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Face Lift </td>
+                    <td> $<span class="cost">100</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class = "fadeIn">
+            <h3> Nail Treatments </h3>
+            <img src="images/frenchTipsSetStockPic.jpg" alt = "nails and toes done in french design" width ="220" height ="172">
+
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Cost</th>
+                    <th>Type Yes Or Leave Blank</th>
+                </tr>
+                <tr>
+                    <td> Acrylic Full Set </td>
+                    <td> $<span class="cost">30</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Fill </td>
+                    <td> $<span class="cost">20</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Regular Manicure </td>
+                    <td> $<span class="cost">16</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Gel Manicure </td>
+                    <td> $<span class="cost">30</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Regular Pedicure </td>
+                    <td> $<span class="cost">30</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Deluxe Pedicure </td>
+                    <td> $<span class="cost">45</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Dead Sea Pedicure </td>
+                    <td> $<span class="cost">55</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Manicure & Pedicure </td>
+                    <td> $<span class="cost">44</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Nail Repair </td>
+                    <td> $<span class="cost">4</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Nail Take Off </td>
+                    <td> $<span class="cost">12</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Nail Decor </td>
+                    <td> $<span class="cost">7</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Dip </td>
+                    <td> $<span class="cost">45</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Cut Down </td>
+                    <td> $<span class="cost">4</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Coating </td>
+                    <td> $<span class="cost">30</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Polish Change </td>
+                    <td> $<span class="cost">10</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Pink & White </td>
+                    <td> $<span class="cost">65</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+            </table>
+        </div>
         
-        <h3> Facials </h3>
-        <img src="images/facialStockPic.jpg" alt = "paintbrush applying facial on woman's face" width ="220" height ="172">
-                
-        <table>
-            <tr>
-                <th>Service</th>
-                <th>Cost</th>
-                <th>Type Yes Or Leave Blank</th>
-            </tr>
-            <tr>
-                <td> Mini </td>
-                <td> $<span class="cost">40</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Full </td>
-                <td> $<span class="cost">60</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Face Lift </td>
-                <td> $<span class="cost">100</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-        </table>
-            
-        <h3> Nail Treatments </h3>
-        <img src="images/frenchTipsSetStockPic.jpg" alt = "nails and toes done in french design" width ="220" height ="172">
+        <div class = "fadeIn">
+            <h3> Permanent Makeup </h3>
+            <img src="images/microbladingStockPic.jpg" alt = "tip of tattoo gun over a woman's eyebrow" width ="220" height ="172">
 
-        <table>
-            <tr>
-                <th>Service</th>
-                <th>Cost</th>
-                <th>Type Yes Or Leave Blank</th>
-            </tr>
-            <tr>
-                <td> Acrylic Full Set </td>
-                <td> $<span class="cost">30</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Fill </td>
-                <td> $<span class="cost">20</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Regular Manicure </td>
-                <td> $<span class="cost">16</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Gel Manicure </td>
-                <td> $<span class="cost">30</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Regular Pedicure </td>
-                <td> $<span class="cost">30</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Deluxe Pedicure </td>
-                <td> $<span class="cost">45</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Dead Sea Pedicure </td>
-                <td> $<span class="cost">55</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Manicure & Pedicure </td>
-                <td> $<span class="cost">44</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Nail Repair </td>
-                <td> $<span class="cost">4</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Nail Take Off </td>
-                <td> $<span class="cost">12</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Nail Decor </td>
-                <td> $<span class="cost">7</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Dip </td>
-                <td> $<span class="cost">45</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Cut Down </td>
-                <td> $<span class="cost">4</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Coating </td>
-                <td> $<span class="cost">30</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Polish Change </td>
-                <td> $<span class="cost">10</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Pink & White </td>
-                <td> $<span class="cost">65</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-        </table>
-            
-        <h3> Permanent Makeup </h3>
-        <img src="images/microbladingStockPic.jpg" alt = "tip of tattoo gun over a woman's eyebrow" width ="220" height ="172">
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Cost</th>
+                    <th>Type Yes Or Leave Blank</th>
+                </tr>
+                <tr>
+                    <td> Eyebrow </td>
+                    <td> $<span class="cost">395</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Eyeliner </td>
+                    <td> $<span class="cost">380</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Lip Liner </td>
+                    <td> $<span class="cost">255</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Full Lips </td>
+                    <td> $<span class="cost">350</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+            </table>
+        </div>
 
-        <table>
-            <tr>
-                <th>Service</th>
-                <th>Cost</th>
-                <th>Type Yes Or Leave Blank</th>
-            </tr>
-            <tr>
-                <td> Eyebrow </td>
-                <td> $<span class="cost">395</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Eyeliner </td>
-                <td> $<span class="cost">380</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Lip Liner </td>
-                <td> $<span class="cost">255</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Full Lips </td>
-                <td> $<span class="cost">350</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-        </table>
-        
-        <h3> Waxing </h3>
+        <div class = "fadeIn">
+            <h3> Waxing </h3>
 
-        <table>
-            <tr>
-                <th>Service</th>
-                <th>Cost</th>
-                <th>Type Yes Or Leave Blank</th>
-            </tr>
-            <tr>
-                <td> Eyebrow </td>
-                <td> $<span class="cost">10</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Lip </td>
-                <td> $<span class="cost">6</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Chin </td>
-                <td> $<span class="cost">14</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Jawline </td>
-                <td> $<span class="cost">13</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Shoulder </td>
-                <td> $<span class="cost">30</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Full Face </td>
-                <td> $<span class="cost">35</span></td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Back </td>
-                <td> $<span class="cost">45</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Bikini </td>
-                <td> $<span class="cost">45</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Half Legs </td>
-                <td> $<span class="cost">35</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Full Legs </td>
-                <td> $<span class="cost">60</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-            <tr>
-                <td> Armpit </td>
-                <td> $<span class="cost">25</span>+</td>
-                <td><input type="text" class="choice"></td>
-            </tr>
-        </table>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Cost</th>
+                    <th>Type Yes Or Leave Blank</th>
+                </tr>
+                <tr>
+                    <td> Eyebrow </td>
+                    <td> $<span class="cost">10</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Lip </td>
+                    <td> $<span class="cost">6</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Chin </td>
+                    <td> $<span class="cost">14</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Jawline </td>
+                    <td> $<span class="cost">13</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Shoulder </td>
+                    <td> $<span class="cost">30</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Full Face </td>
+                    <td> $<span class="cost">35</span></td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Back </td>
+                    <td> $<span class="cost">45</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Bikini </td>
+                    <td> $<span class="cost">45</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Half Legs </td>
+                    <td> $<span class="cost">35</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Full Legs </td>
+                    <td> $<span class="cost">60</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+                <tr>
+                    <td> Armpit </td>
+                    <td> $<span class="cost">25</span>+</td>
+                    <td><input type="text" class="choice"></td>
+                </tr>
+            </table>
+        </div>
 
-        <h3>Estimation of Costs</h3>
-        <input type="button" value="Update Total" onclick="update()">
-        <input type="reset" value="Clear Form"><br>
-        Total for your selected services is $<span id="totalCost">0</span><br>
-        Total for your selected services with tax is $<span id="totalCost2">0</span>
+        <div class = "fadeIn">
+            <h3>Estimation of Costs</h3>
+            <input type="button" value="Update Total" onclick="update()">
+            <input type="reset" value="Clear Form"><br>
+            <p>Total for your selected services is $<span id="totalCost">0</span><br>
+            Total for your selected services with tax is $<span id="totalCost2">0</span></p>
+        </div>
 
     </form>    
 
-    <h3>Duration of Service Estimation</h3>
-            
-    <form id="contactForm" action="service.html">
-        <input type="text" id="service" name="service" placeholder="enter a service"><br>
-        <input type="submit" id="submit" value="Submit"><br>
-        <input type="reset" value="Clear Form">
-    </form>
+    <div class = "fadeIn">
+        <h3>Duration of Service Estimation</h3>
+                
+        <form id="contactForm" action="service.html">
+            <input type="text" id="service" name="service" placeholder="enter a service"><br>
+            <input type="submit" id="submit" value="Submit"><br>
+            <input type="reset" value="Clear Form">
+        </form>
 
-    <div id="response">
+        <div id="response">
+        </div>
     </div>
     
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script> window.jQuery || document.write('<script src="js/jquery-3.6.3.min.js"><\/script>')</script>
     <script src="js/form.js"></script>
     <script src="js/cost.js"></script>
+    <script src="js/fade.js"></script>
     <script src="js/picAnimation.js"></script>
 </body>
 </html>
