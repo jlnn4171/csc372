@@ -49,16 +49,16 @@
     <title>Perfect Nails Home</title>
   </head>
 
-  <body>
+  <body class = bgColor>
 
     <div class = navBar>
       <img src="images/perfectnailslogo.png" alt="Orange window pane shape with the words 'Perfect Nails' in the center. Theres an open pink nail polish bottle to the right and nail clippers on the left of it." width ="110" height ="86">
 
-      <a href="index.html"> Homepage </a> 
-      <a href="services.html"> Services </a> 
-      <a href="contact.html"> Contact </a> 
-      <a href="about.html"> About </a>
-      <a href="book.html"> Booking </a>
+      <a href="index.php"> Homepage </a> 
+      <a href="services.php"> Services </a> 
+      <a href="contact.php"> Contact </a> 
+      <a href="about.php"> About </a>
+      <a href="book.php"> Booking </a>
       <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 
