@@ -13,7 +13,7 @@
         $apptDate = $_POST['appointment_date'];
 
         $sql = "INSERT INTO appointment(name, phoneNum, apptDate, service) 
-            VALUES (:name, :phoneNum, :apptDate, :service);"   
+            VALUES (:name, :phoneNum, :apptDate, :service);";   
         
         $statement = pdo($pdo, $sql, ['name' => $name, 'phoneNum' => $phoneNum, 'apptDate' => $apptDate, 'service' => $service]);
 
