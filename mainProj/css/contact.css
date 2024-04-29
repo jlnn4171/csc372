@@ -2,3 +2,8 @@
     opacity: 0;
     transition: opacity 1.6s ease-in-out;
 }
+
+#map { 
+    height: 300px; 
+    width: 400px;
+}
