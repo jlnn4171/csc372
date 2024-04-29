@@ -3,6 +3,9 @@
 	// Include the session script
 	include 'includes/session.php';
 
+    // Redirect user if not logged in
+	require_login($logged_in);
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the username the user sent
         $name = $_POST['name'];
@@ -42,7 +45,9 @@
         <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 
-    <h1 class = "titles"> Book an Appointment Now </h1>
+    <h1 class = "titles"> Book Your Appointment</h1>
+
+    <h3>Hi <?= $name['name'] ?>, would you like to book an appointment?</h3>
 
     <h3>Fill in the Following:</h3>
 
