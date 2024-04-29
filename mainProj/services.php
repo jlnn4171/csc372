@@ -126,7 +126,9 @@
                 <h3> Nail Treatments </h3>
                 <img src="images/frenchTipsSetStockPic.jpg" alt = "nails and toes done in french design" width ="220" height ="172">
             </div>
+        </div>
 
+        <div class = "fadeIn">
             <div class = "containerG">
                 <table class = "center">
                     <tr>

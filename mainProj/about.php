@@ -42,9 +42,7 @@
                 <img id="lindsHead-img" src="images/lindsHead.jpg" alt="Lindsey Truong">
             </div>
         </div>
-    </div>
     
-    <div class = "containerG">
         <div class="book-layout">
             <div id="details">
                 <h3>Click on a team member from the left to learn more!</h3>
