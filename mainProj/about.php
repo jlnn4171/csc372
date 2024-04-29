@@ -34,7 +34,7 @@
     <div>
         
         <div class="book-layout">
-            <div id="team">
+            <div id="team" style="margin-left: 3%;">
                 <img id="roseHead-img" src="images/roseHead.jpg" alt="Rosemary Nguyen">
                 
                 <img id="andyHead-img" src="images/andyHead.jpg" alt="Andy Nguyen">
@@ -49,7 +49,7 @@
                 <h3>Click on a team member from the left to learn more!</h3>
             </div>
         </div>
-        
+
     </div>
 
     <script src="js/team-html.js"></script>
