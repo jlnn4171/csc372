@@ -34,7 +34,7 @@
     <div>
         
         <div class="book-layout">
-            <div id="team" style="margin-left: 5%;">
+            <div id="team" style="margin-left: 15%;">
                 <img id="roseHead-img" src="images/roseHead.jpg" alt="Rosemary Nguyen">
                 
                 <img id="andyHead-img" src="images/andyHead.jpg" alt="Andy Nguyen">
