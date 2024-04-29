@@ -21,6 +21,8 @@
         $statement = pdo($pdo, $sql, ['name' => $name, 'phoneNum' => $phoneNum, 'apptDate' => $apptDate, 'service' => $service]);
 
     }
+
+    $user = pdo($pdo, $sql, ['username' => $username])->fetch();
 ?>
 
 <!DOCTYPE html>
@@ -47,7 +49,7 @@
 
     <h1 class = "titles"> Book Your Appointment</h1>
 
-    <h3>Hi <?= $name['name'] ?>, would you like to book an appointment?</h3>
+    <h3>Hi <?= $username['username'] ?>, would you like to book an appointment?</h3>
 
     <h3>Fill in the Following:</h3>
 
