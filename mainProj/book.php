@@ -43,6 +43,7 @@
 
 <body class = bgColor>
     
+    <!-- Navigation Bar -->
     <div class = navBar>
         <img src="images/perfectnailslogo.png" alt="Orange window pane shape with the words 'Perfect Nails' in the center. Theres an open pink nail polish bottle to the right and nail clippers on the left of it." width ="110" height ="86">
 
@@ -54,33 +55,41 @@
         <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 
-    <h1 class = "titles"> Book Your Appointment</h1>
+    <div class = "containerMT">
+        <h1 class = "titles"> Book Your Appointment</h1>
+    </div>
 
-    <h3>Hi <?= $user['username'] ?>, would you like to book an appointment?</h3>
+    <div class = "containerT">
+        <h3>Hi <?= $user['username'] ?>, would you like to book an appointment?</h3>
+    </div>
 
-    <h3>Fill in the Following:</h3>
+    <div class = "containerG">
 
-    <form action="appointment.php" method="POST">
-    
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-    
-        <label for="phone">Phone Number:</label>
-        <input type="text" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required><br><br>
-    
-        <label for="service">Select Catagory of Service:</label>
-        <select id="service" name="service">
-            <option value="manicure">Manicure</option>
-            <option value="pedicure">Pedicure</option>
-            <option value="nail-art">Waxing</option>
-        </select><br><br>
-    
-        <label for="appointment_date">Appointment Date:</label>
-        <input type="date" id="appointment_date" name="appointment_date" required><br><br>
-    
-        <input type="submit" value="Submit">
+        <h3>Fill in the Following:</h3>
+
+        <form action="appointment.php" method="POST">
         
-    </form> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+        
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required><br><br>
+        
+            <label for="service">Select Catagory of Service:</label>
+            <select id="service" name="service">
+                <option value="manicure">Manicure</option>
+                <option value="pedicure">Pedicure</option>
+                <option value="nail-art">Waxing</option>
+            </select><br><br>
+        
+            <label for="appointment_date">Appointment Date:</label>
+            <input type="date" id="appointment_date" name="appointment_date" required><br><br>
+        
+            <input type="submit" value="Submit">
+            
+        </form> 
+        
+    </div>
 
 </body>
 </html>

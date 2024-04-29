@@ -1,5 +1,5 @@
 .bgColor{
-    background-color:rgb(232, 196, 193); 
+    background-color:rgb(182, 143, 139); 
     text-align: center;
 }
 
@@ -21,14 +21,18 @@ h3{
 p{
     font-size: medium;
     font-family: sans-serif;
+    padding: 1%;
 }
 
+img, table, form{
+    padding: 15px;
+}
 .navBar{
     display: flex;
     justify-content: space-between; /* Align items along the main axis with space between */
     align-items: center;
     overflow: auto;
-    padding: 5px;
+    padding: 10px;
     background-color: rgb(213, 138, 148);
     font-family: "Montserrat";
     
@@ -61,4 +65,56 @@ p{
 .center{
     margin-left: auto;
     margin-right: auto;
+}
+
+.containerMT{
+    flex: 1;
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(232, 196, 193);    
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 75%;
+    padding: 20 px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 2px 1px rgba(230, 81, 13, 0.4);
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.containerT{
+    flex: 1;
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(232, 196, 193);    
+    border-radius: 5px;
+    margin-top: 2%;
+    width: 75%;
+    padding: 20 px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 2px 1px rgba(254, 136, 68, 0.4);
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+.containerG{
+    flex: 1;
+    display: flex; /* or inline-flex */
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(232, 196, 193);    
+    border-radius: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 75%;
+    padding: 20 px;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 2px 1px rgba(245, 147, 160, .4); 
+    margin-left: auto;
+    margin-right: auto;   
 }

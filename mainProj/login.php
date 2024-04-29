@@ -6,7 +6,7 @@
   if ($logged_in) { 
 
     // Redirect to profile page   
-    header('Location: book.php'); 
+    header('Location: index.php'); 
 
     // Stop further code running
     exit;
@@ -29,7 +29,7 @@
       login($username);  
 
       // Redirect to profile page                             
-      header('Location: book.php');
+      header('Location: index.php');
 
       // Stop further code running 
       exit;   
@@ -63,7 +63,8 @@
     </div>
 
     <div id="content" class="animate-bottom">
-      <h1>Log In</h1>
+      
+      <h1 class="titles">Log In</h1>
       <hr />
       <br />
       

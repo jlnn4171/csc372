@@ -64,6 +64,7 @@
 
 <body class = bgColor>
 
+    <!-- Navigation Bar -->
     <div class = navBar>
         <img src="images/perfectnailslogo.png" alt="Orange window pane shape with the words 'Perfect Nails' in the center. Theres an open pink nail polish bottle to the right and nail clippers on the left of it." width ="110" height ="86">
 
@@ -75,34 +76,42 @@
         <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 
-<h2>Form Submission Status</h2>
+    <div class = "containerMT">
+        <h1 class="titles">Form Submission Status</h1>
+    </div>
 
-<p><?php echo $form_status; ?></p>
+    <div class = "containerT">
+        <h3><?php echo $form_status; ?></h3>
 
-<?php if ($form_status !== 'Data is valid. Your appointment is confirmed!'): ?>
-    <ul>
-        <?php foreach ($error_messages as $error): ?>
-            <?php if ($error !== ''): ?>
-                <li><?php echo $error; ?></li>
-            <?php endif; ?>
-        <?php endforeach; ?>
-    </ul>
-<?php endif; ?>
+        <?php if ($form_status !== 'Data is valid. Your appointment is confirmed!'): ?>
+        
+        <ul>
+            <?php foreach ($error_messages as $error): ?>
+                <?php if ($error !== ''): ?>
+                    <li><?php echo $error; ?></li>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </ul>
 
-<h2>Details Entered:</h2>
+        <?php endif; ?>
+    </div>
 
-<p>Name: <?php echo $form_data['name']; ?></p>
-<p>Phone Number: <?php echo $form_data['phone']; ?></p>
-<p>Service: <?php echo $form_data['service']; ?></p>
-<p>Appointment Date: <?php echo $form_data['appointment_date']; ?></p>
+    <div class = "containerG">
+        <h3>Details Entered:</h3>
 
-<?php
-// access cookie data
-if(isset($_COOKIE['visitor_info'])) {
-    $cookie_data = json_decode($_COOKIE['visitor_info'], true);
-    // validate and use cookie data
-}
-?>
+        <p>Name: <?php echo $form_data['name']; ?></p>
+        <p>Phone Number: <?php echo $form_data['phone']; ?></p>
+        <p>Service: <?php echo $form_data['service']; ?></p>
+        <p>Appointment Date: <?php echo $form_data['appointment_date']; ?></p>
+    </div>
+
+    <?php
+    // access cookie data
+    if(isset($_COOKIE['visitor_info'])) {
+        $cookie_data = json_decode($_COOKIE['visitor_info'], true);
+        // validate and use cookie data
+    }
+    ?>
 
 </body>
 </html>

@@ -14,6 +14,8 @@
 </head>
 
 <body class = bgColor>
+
+    <!-- Navigation Bar -->
     <div class = navBar>
         <img src="images/perfectnailslogo.png" alt="Orange window pane shape with the words 'Perfect Nails' in the center. Theres an open pink nail polish bottle to the right and nail clippers on the left of it." width ="110" height ="86">
 
@@ -25,22 +27,28 @@
         <?= $logged_in ? '<a href="logout.php">Log Out</a>' : '<a href="login.php">Log In</a>'; ?>
     </div>
 
-    <h1 class="titles">About Perfect Nails </h1>
+    <div class = "containerMT">
+        <h1 class="titles">About Perfect Nails </h1>
+    </div>
 
-    <div class="book-layout">
-        <div id="team">
-            <img id="roseHead-img" src="images/roseHead.jpg" alt="Rosemary Nguyen">
-            
-            <img id="andyHead-img" src="images/andyHead.jpg" alt="Andy Nguyen">
-            <img id="tiffHead-img" src="images/tiffHead.jpg" alt="Tiffany Huynh">
-            <img id="tinaHead-img" src="images/tinaHead.jpg" alt="Tina Huynh">
-            <img id="lindsHead-img" src="images/lindsHead.jpg" alt="Lindsey Truong">
+    <div class = "containerG">
+        <div class="book-layout">
+            <div id="team">
+                <img id="roseHead-img" src="images/roseHead.jpg" alt="Rosemary Nguyen">
+                
+                <img id="andyHead-img" src="images/andyHead.jpg" alt="Andy Nguyen">
+                <img id="tiffHead-img" src="images/tiffHead.jpg" alt="Tiffany Huynh">
+                <img id="tinaHead-img" src="images/tinaHead.jpg" alt="Tina Huynh">
+                <img id="lindsHead-img" src="images/lindsHead.jpg" alt="Lindsey Truong">
+            </div>
         </div>
     </div>
     
-    <div class="book-layout">
-        <div id="details">
-            <p>Click on a team member from the left to learn more!</p>
+    <div class = "containerG">
+        <div class="book-layout">
+            <div id="details">
+                <h3>Click on a team member from the left to learn more!</h3>
+            </div>
         </div>
     </div>
 
