@@ -31,7 +31,7 @@
         <h1 class="titles">About Perfect Nails </h1>
     </div>
     
-    <div class = "containerG">
+    <div>
         <div class="book-layout">
             <div id="details">
                 <h3>Click on a team member from the left to learn more!</h3>
