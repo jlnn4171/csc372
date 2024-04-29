@@ -22,6 +22,13 @@
 
     }
 
+    // Retrieve the username from the session data
+	$username = $_SESSION['username'];
+
+    $sql = "SELECT username
+        FROM logins
+        WHERE username = :username";
+
     $user = pdo($pdo, $sql, ['username' => $username])->fetch();
 ?>
 
@@ -49,7 +56,7 @@
 
     <h1 class = "titles"> Book Your Appointment</h1>
 
-    <h3>Hi <?= $username['username'] ?>, would you like to book an appointment?</h3>
+    <h3>Hi <?= $user['username'] ?>, would you like to book an appointment?</h3>
 
     <h3>Fill in the Following:</h3>
 
