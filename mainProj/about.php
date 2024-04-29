@@ -32,13 +32,7 @@
     </div>
     
     <div>
-        <div class="book-layout">
-            <div id="details">
-                <h3>Click on a team member from the left to learn more!</h3>
-            </div>
-        </div>
-
-   
+        
         <div class="book-layout">
             <div id="team">
                 <img id="roseHead-img" src="images/roseHead.jpg" alt="Rosemary Nguyen">
@@ -49,7 +43,13 @@
                 <img id="lindsHead-img" src="images/lindsHead.jpg" alt="Lindsey Truong">
             </div>
         </div>
-    
+
+        <div class="book-layout">
+            <div id="details">
+                <h3>Click on a team member from the left to learn more!</h3>
+            </div>
+        </div>
+        
     </div>
 
     <script src="js/team-html.js"></script>
